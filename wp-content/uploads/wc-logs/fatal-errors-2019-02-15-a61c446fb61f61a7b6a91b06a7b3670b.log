@@ -1,0 +1,229 @@
+2019-02-15T11:46:26+00:00 CRITICAL Uncaught Error: Call to undefined function WP_Query() in C:\xampp\htdocs\wordpress\wp-content\themes\twentynineteen\my-constom-page.php:12
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(74): include()
+#1 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\twentynineteen\my-constom-page.php on line 12
+
+2019-02-15T12:51:54+00:00 CRITICAL Uncaught Error: Call to undefined function is_customize_pCostom() in C:\xampp\htdocs\wordpress\wp-content\themes\twentynineteen\functions.php:276
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(286): twentynineteen_colors_css_wrap('')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(2614): do_action('wp_head')
+#4 C:\xampp\htdocs\wordpress\wp-content\themes\twentynineteen\header.php(19): wp_head()
+#5 C:\xampp\htdocs\wordpress\wp-includes\template.php(688): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wordpress\wp-includes\template.php(647): load_template('C:\\xampp\\htdocs...', true)
+#7 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(41): locate_template(Array, true)
+#8 C:\xampp\htdocs\wordpress\wp-content\themes\twentynineteen\my-constom-page.php(6): get_header()
+#9 C:\ in C:\xampp\htdocs\wordpress\wp-content\themes\twentynineteen\functions.php on line 276
+
+2019-02-15T12:52:47+00:00 CRITICAL Uncaught Error: Call to undefined function is_customize_pCostom() in C:\xampp\htdocs\wordpress\wp-content\themes\twentynineteen\functions.php:276
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(286): twentynineteen_colors_css_wrap('')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(2614): do_action('wp_head')
+#4 C:\xampp\htdocs\wordpress\wp-content\themes\twentynineteen\header.php(19): wp_head()
+#5 C:\xampp\htdocs\wordpress\wp-includes\template.php(688): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wordpress\wp-includes\template.php(647): load_template('C:\\xampp\\htdocs...', true)
+#7 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(41): locate_template(Array, true)
+#8 C:\xampp\htdocs\wordpress\wp-content\themes\twentynineteen\my-constom-page.php(6): get_header()
+#9 C:\ in C:\xampp\htdocs\wordpress\wp-content\themes\twentynineteen\functions.php on line 276
+
+2019-02-15T12:52:52+00:00 CRITICAL Uncaught Error: Call to undefined function is_customize_pCostom() in C:\xampp\htdocs\wordpress\wp-content\themes\twentynineteen\functions.php:276
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(286): twentynineteen_colors_css_wrap('')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(2614): do_action('wp_head')
+#4 C:\xampp\htdocs\wordpress\wp-content\themes\twentynineteen\header.php(19): wp_head()
+#5 C:\xampp\htdocs\wordpress\wp-includes\template.php(688): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wordpress\wp-includes\template.php(647): load_template('C:\\xampp\\htdocs...', true)
+#7 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(41): locate_template(Array, true)
+#8 C:\xampp\htdocs\wordpress\wp-content\themes\twentynineteen\my-constom-page.php(6): get_header()
+#9 C:\ in C:\xampp\htdocs\wordpress\wp-content\themes\twentynineteen\functions.php on line 276
+
+2019-02-15T12:58:36+00:00 CRITICAL Uncaught Error: Call to undefined function is_customize_pCostom() in C:\xampp\htdocs\wordpress\wp-content\themes\twentynineteen\functions.php:276
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(286): twentynineteen_colors_css_wrap('')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(2614): do_action('wp_head')
+#4 C:\xampp\htdocs\wordpress\wp-content\themes\twentynineteen\header.php(19): wp_head()
+#5 C:\xampp\htdocs\wordpress\wp-includes\template.php(688): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wordpress\wp-includes\template.php(647): load_template('C:\\xampp\\htdocs...', true)
+#7 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(41): locate_template(Array, true)
+#8 C:\xampp\htdocs\wordpress\wp-content\themes\twentynineteen\my-constom-page.php(6): get_header()
+#9 C:\ in C:\xampp\htdocs\wordpress\wp-content\themes\twentynineteen\functions.php on line 276
+
+2019-02-15T12:58:45+00:00 CRITICAL Uncaught Error: Call to undefined function is_customize_pCostom() in C:\xampp\htdocs\wordpress\wp-content\themes\twentynineteen\functions.php:276
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(286): twentynineteen_colors_css_wrap('')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(2614): do_action('wp_head')
+#4 C:\xampp\htdocs\wordpress\wp-content\themes\twentynineteen\header.php(19): wp_head()
+#5 C:\xampp\htdocs\wordpress\wp-includes\template.php(688): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wordpress\wp-includes\template.php(647): load_template('C:\\xampp\\htdocs...', true)
+#7 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(41): locate_template(Array, true)
+#8 C:\xampp\htdocs\wordpress\wp-content\themes\twentynineteen\my-constom-page.php(6): get_header()
+#9 C:\ in C:\xampp\htdocs\wordpress\wp-content\themes\twentynineteen\functions.php on line 276
+
+2019-02-15T12:58:57+00:00 CRITICAL Uncaught Error: Call to undefined function is_customize_pCostom() in C:\xampp\htdocs\wordpress\wp-content\themes\twentynineteen\functions.php:276
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(286): twentynineteen_colors_css_wrap('')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(2614): do_action('wp_head')
+#4 C:\xampp\htdocs\wordpress\wp-content\themes\twentynineteen\header.php(19): wp_head()
+#5 C:\xampp\htdocs\wordpress\wp-includes\template.php(688): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wordpress\wp-includes\template.php(647): load_template('C:\\xampp\\htdocs...', true)
+#7 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(41): locate_template(Array, true)
+#8 C:\xampp\htdocs\wordpress\wp-content\themes\twentynineteen\my-constom-page.php(6): get_header()
+#9 C:\ in C:\xampp\htdocs\wordpress\wp-content\themes\twentynineteen\functions.php on line 276
+
+2019-02-15T12:59:07+00:00 CRITICAL Uncaught Error: Call to undefined function is_customize_pCostom() in C:\xampp\htdocs\wordpress\wp-content\themes\twentynineteen\functions.php:276
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(286): twentynineteen_colors_css_wrap('')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(2614): do_action('wp_head')
+#4 C:\xampp\htdocs\wordpress\wp-content\themes\twentynineteen\header.php(19): wp_head()
+#5 C:\xampp\htdocs\wordpress\wp-includes\template.php(688): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wordpress\wp-includes\template.php(647): load_template('C:\\xampp\\htdocs...', true)
+#7 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(41): locate_template(Array, true)
+#8 C:\xampp\htdocs\wordpress\wp-content\themes\twentynineteen\my-constom-page.php(6): get_header()
+#9 C:\ in C:\xampp\htdocs\wordpress\wp-content\themes\twentynineteen\functions.php on line 276
+
+2019-02-15T12:59:13+00:00 CRITICAL Uncaught Error: Call to undefined function is_customize_pCostom() in C:\xampp\htdocs\wordpress\wp-content\themes\twentynineteen\functions.php:276
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(286): twentynineteen_colors_css_wrap('')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(2614): do_action('wp_head')
+#4 C:\xampp\htdocs\wordpress\wp-content\themes\twentynineteen\header.php(19): wp_head()
+#5 C:\xampp\htdocs\wordpress\wp-includes\template.php(688): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wordpress\wp-includes\template.php(647): load_template('C:\\xampp\\htdocs...', true)
+#7 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(41): locate_template(Array, true)
+#8 C:\xampp\htdocs\wordpress\wp-content\themes\twentynineteen\my-constom-page.php(6): get_header()
+#9 C:\ in C:\xampp\htdocs\wordpress\wp-content\themes\twentynineteen\functions.php on line 276
+
+2019-02-15T12:59:58+00:00 CRITICAL Uncaught Error: Call to undefined function is_customize_pCostom() in C:\xampp\htdocs\wordpress\wp-content\themes\twentynineteen\functions.php:276
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(286): twentynineteen_colors_css_wrap('')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(2614): do_action('wp_head')
+#4 C:\xampp\htdocs\wordpress\wp-content\themes\twentynineteen\header.php(19): wp_head()
+#5 C:\xampp\htdocs\wordpress\wp-includes\template.php(688): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wordpress\wp-includes\template.php(647): load_template('C:\\xampp\\htdocs...', true)
+#7 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(41): locate_template(Array, true)
+#8 C:\xampp\htdocs\wordpress\wp-content\themes\twentynineteen\my-constom-page.php(6): get_header()
+#9 C:\ in C:\xampp\htdocs\wordpress\wp-content\themes\twentynineteen\functions.php on line 276
+
+2019-02-15T13:00:08+00:00 CRITICAL Uncaught Error: Call to undefined function is_customize_pCostom() in C:\xampp\htdocs\wordpress\wp-content\themes\twentynineteen\functions.php:276
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(286): twentynineteen_colors_css_wrap('')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(2614): do_action('wp_head')
+#4 C:\xampp\htdocs\wordpress\wp-content\themes\twentynineteen\header.php(19): wp_head()
+#5 C:\xampp\htdocs\wordpress\wp-includes\template.php(688): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wordpress\wp-includes\template.php(647): load_template('C:\\xampp\\htdocs...', true)
+#7 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(41): locate_template(Array, true)
+#8 C:\xampp\htdocs\wordpress\wp-content\themes\twentynineteen\my-constom-page.php(6): get_header()
+#9 C:\ in C:\xampp\htdocs\wordpress\wp-content\themes\twentynineteen\functions.php on line 276
+
+2019-02-15T13:00:18+00:00 CRITICAL Uncaught Error: Call to undefined function is_customize_pCostom() in C:\xampp\htdocs\wordpress\wp-content\themes\twentynineteen\functions.php:276
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(286): twentynineteen_colors_css_wrap('')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(2614): do_action('wp_head')
+#4 C:\xampp\htdocs\wordpress\wp-content\themes\twentynineteen\header.php(19): wp_head()
+#5 C:\xampp\htdocs\wordpress\wp-includes\template.php(688): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wordpress\wp-includes\template.php(647): load_template('C:\\xampp\\htdocs...', true)
+#7 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(41): locate_template(Array, true)
+#8 C:\xampp\htdocs\wordpress\wp-content\themes\twentynineteen\my-constom-page.php(6): get_header()
+#9 C:\ in C:\xampp\htdocs\wordpress\wp-content\themes\twentynineteen\functions.php on line 276
+
+2019-02-15T13:00:38+00:00 CRITICAL Uncaught Error: Call to undefined function is_customize_pCostom() in C:\xampp\htdocs\wordpress\wp-content\themes\twentynineteen\functions.php:276
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(286): twentynineteen_colors_css_wrap('')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(2614): do_action('wp_head')
+#4 C:\xampp\htdocs\wordpress\wp-content\themes\twentynineteen\header.php(19): wp_head()
+#5 C:\xampp\htdocs\wordpress\wp-includes\template.php(688): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wordpress\wp-includes\template.php(647): load_template('C:\\xampp\\htdocs...', true)
+#7 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(41): locate_template(Array, true)
+#8 C:\xampp\htdocs\wordpress\wp-content\themes\twentynineteen\my-constom-page.php(6): get_header()
+#9 C:\ in C:\xampp\htdocs\wordpress\wp-content\themes\twentynineteen\functions.php on line 276
+
+2019-02-15T13:00:54+00:00 CRITICAL Uncaught Error: Call to undefined function is_customize_pCostom() in C:\xampp\htdocs\wordpress\wp-content\themes\twentynineteen\functions.php:276
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(286): twentynineteen_colors_css_wrap('')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(2614): do_action('wp_head')
+#4 C:\xampp\htdocs\wordpress\wp-content\themes\twentynineteen\header.php(19): wp_head()
+#5 C:\xampp\htdocs\wordpress\wp-includes\template.php(688): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wordpress\wp-includes\template.php(647): load_template('C:\\xampp\\htdocs...', true)
+#7 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(41): locate_template(Array, true)
+#8 C:\xampp\htdocs\wordpress\wp-content\themes\twentynineteen\my-constom-page.php(6): get_header()
+#9 C:\ in C:\xampp\htdocs\wordpress\wp-content\themes\twentynineteen\functions.php on line 276
+
+2019-02-15T13:01:17+00:00 CRITICAL Uncaught Error: Call to undefined function is_customize_pCostom() in C:\xampp\htdocs\wordpress\wp-content\themes\twentynineteen\functions.php:276
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(286): twentynineteen_colors_css_wrap('')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(2614): do_action('wp_head')
+#4 C:\xampp\htdocs\wordpress\wp-content\themes\twentynineteen\header.php(19): wp_head()
+#5 C:\xampp\htdocs\wordpress\wp-includes\template.php(688): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wordpress\wp-includes\template.php(647): load_template('C:\\xampp\\htdocs...', true)
+#7 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(41): locate_template(Array, true)
+#8 C:\xampp\htdocs\wordpress\wp-content\themes\twentynineteen\my-constom-page.php(6): get_header()
+#9 C:\ in C:\xampp\htdocs\wordpress\wp-content\themes\twentynineteen\functions.php on line 276
+
+2019-02-15T13:02:20+00:00 CRITICAL Uncaught Error: Call to undefined function is_customize_pCostom() in C:\xampp\htdocs\wordpress\wp-content\themes\twentynineteen\functions.php:276
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(286): twentynineteen_colors_css_wrap('')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(2614): do_action('wp_head')
+#4 C:\xampp\htdocs\wordpress\wp-content\themes\twentynineteen\header.php(19): wp_head()
+#5 C:\xampp\htdocs\wordpress\wp-includes\template.php(688): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wordpress\wp-includes\template.php(647): load_template('C:\\xampp\\htdocs...', true)
+#7 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(41): locate_template(Array, true)
+#8 C:\xampp\htdocs\wordpress\wp-content\themes\twentynineteen\my-constom-page.php(6): get_header()
+#9 C:\ in C:\xampp\htdocs\wordpress\wp-content\themes\twentynineteen\functions.php on line 276
+
+2019-02-15T13:02:28+00:00 CRITICAL Uncaught Error: Call to undefined function is_customize_pCostom() in C:\xampp\htdocs\wordpress\wp-content\themes\twentynineteen\functions.php:276
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(286): twentynineteen_colors_css_wrap('')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(2614): do_action('wp_head')
+#4 C:\xampp\htdocs\wordpress\wp-content\themes\twentynineteen\header.php(19): wp_head()
+#5 C:\xampp\htdocs\wordpress\wp-includes\template.php(688): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wordpress\wp-includes\template.php(647): load_template('C:\\xampp\\htdocs...', true)
+#7 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(41): locate_template(Array, true)
+#8 C:\xampp\htdocs\wordpress\wp-content\themes\twentynineteen\my-constom-page.php(6): get_header()
+#9 C:\ in C:\xampp\htdocs\wordpress\wp-content\themes\twentynineteen\functions.php on line 276
+
+2019-02-15T13:03:17+00:00 CRITICAL Uncaught Error: Call to undefined function is_customize_pCostom() in C:\xampp\htdocs\wordpress\wp-content\themes\twentynineteen\functions.php:276
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(286): twentynineteen_colors_css_wrap('')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(2614): do_action('wp_head')
+#4 C:\xampp\htdocs\wordpress\wp-content\themes\twentynineteen\header.php(19): wp_head()
+#5 C:\xampp\htdocs\wordpress\wp-includes\template.php(688): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wordpress\wp-includes\template.php(647): load_template('C:\\xampp\\htdocs...', true)
+#7 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(41): locate_template(Array, true)
+#8 C:\xampp\htdocs\wordpress\wp-content\themes\twentynineteen\my-constom-page.php(6): get_header()
+#9 C:\ in C:\xampp\htdocs\wordpress\wp-content\themes\twentynineteen\functions.php on line 276
+
